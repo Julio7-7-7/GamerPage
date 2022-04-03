@@ -1,0 +1,36 @@
+html{
+    font-size: 62.5px;
+}
+body{
+    background: url(../imgs/fondoMando.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+section{
+    text-align: center;
+    font-size: 0.4rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(141, 17, 17);
+}
+section .inputs{
+    background-color: white;
+}
+.form{
+    background-color: transparent;
+    color: white;
+    padding: 4px;
+    background-color: rgba(10, 10, 10, 0.63);
+    font-size: 17px;
+}
+.boton{
+    text-align: center;
+    background-color: rgb(82, 0, 177);
+    height: 20px;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+/* <!-- afs --> */
+

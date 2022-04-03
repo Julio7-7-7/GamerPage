@@ -1,0 +1,49 @@
+html{
+    font-size: 63.5px;
+}
+body{
+    background: url(../imgs/fondoMando.jpg);
+}
+header{
+    text-align: center;
+    background-color: rgba(2, 2, 2, 0.623);
+    height: 2rem;
+    border-radius: 100px;
+}
+h1{
+    font-size: 1rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-shadow: 2px 3px 5px black;
+}
+section{
+    font-size: 0.5rem;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 5px black;
+    text-align: center;
+}
+.formulario{
+    padding: 8px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+}
+h4{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+a{
+    padding: 0.6rem;
+    margin: 0.4rem;
+    font-size: 0.4rem;
+    background-color: rgb(47, 7, 112);
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.boton{
+    height: 2px;
+}

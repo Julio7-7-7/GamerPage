@@ -1,0 +1,94 @@
+html{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body{
+    background: url(../imgs/tapiz.jpg);
+    margin: 0;
+    background-color: #efefef;
+}
+header h1{
+    font-size: 2rem;
+    color: rgb(226, 75, 5);
+    text-shadow: 1px 3px 2px rgb(0, 0, 0);
+}
+header {
+    background: url(../imgs/banerHeader.jpg);
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 100px;
+    position: sticky;
+    top: 0px;
+    border-bottom: solid 2px white;
+    border-top: solid 1px white;
+}
+header a:hover{
+    color: #0893d3;
+    font-size: 1.5rem;
+}
+.route {
+    color: rgb(209, 23, 110);
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+section article{
+    transition: box-shadow 0.3s ease;
+    margin: 1rem 0;
+    border-radius: 2rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+section article h2, section article p{
+    margin: 2rem;
+}
+.fp{
+    background: url(../imgs/fondo.png);
+    color: white;
+    font-size: 0.9rem;
+}
+.imag{
+    width: 400px;
+    padding-left: 100px;
+}
+article .coments{
+    font-size: 0.8rem;
+}
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 3);
+}
+footer{
+    background-color: #000000;
+    padding: 1.5rem;
+    height: 15px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+footer section{
+    float: right;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: cornflowerblue;
+}
+.enlace{
+    background-color: rgb(195, 231, 34);
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+/* <!-- afs --> */
+
